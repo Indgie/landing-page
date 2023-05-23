@@ -1,12 +1,10 @@
 body {
-    background-color: #1F2937;
+    
     font-family: Roboto, sans-serif;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 10px;
     display: flex;
     flex-direction: column;
     gap: 100px;
+    margin: 0;
 }
 
 /* STYLING FIRST SECTION */
@@ -16,6 +14,12 @@ body {
     flex-direction: column;
     flex: 1;
     gap: 100px;
+    background-color: #1F2937;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+
 }
 
 .header {
@@ -105,6 +109,44 @@ button {
 .second-section {
     background-color: white;
     display: flex;
+    flex-direction: column;
     flex: 1;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    gap: 60px;
+}
+.second-title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.illiustration-box {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 40px;
     
+}
+
+.ilone, .iltwo, .ilthree, .ilfour {
+    display: flex;
+    flex: 0;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+.imgplace {
+    width: 150px;
+    height: 150px;
+    border: solid 4px #3882F6;
+    border-radius: 10px;
+}
+.imgtxt {
+    color: #6d6d6d;
 }
