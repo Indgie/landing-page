@@ -16,7 +16,6 @@ body {
     flex-direction: column;
     flex: 1;
     gap: 100px;
-    background-color: #1F2937;
 }
 
 .header {
@@ -99,4 +98,12 @@ button {
 }
 .image {
     color: #bebfc2;  
+}
+
+/*STYLING SECOND SECTION*/
+
+.second-section {
+    background-color: white;
+    display: flex;
+    flex: 1;
 }
