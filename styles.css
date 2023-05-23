@@ -1,0 +1,39 @@
+body {
+    background-color: #1F2937;
+    font-family: Hero;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
+    
+
+}
+.first-section {
+    background-color: #1F2937;
+ 
+}
+
+.header {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    font-size: 24px;
+
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+
+}
