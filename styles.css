@@ -1,12 +1,11 @@
 body {
     background-color: #1F2937;
-    font-family: Hero;
+    font-family: Hero, sans-serif;
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 10px;
-    
-
 }
+
 .first-section {
     background-color: #1F2937;
  
@@ -35,5 +34,6 @@ a {
 .links {
     display: flex;
     gap: 20px;
+    font-family: "Hero light";
 
 }
