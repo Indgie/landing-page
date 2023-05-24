@@ -224,3 +224,12 @@ button {
     border: solid 2px #F9FAF8;
     justify-content: center;
 }
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bebfc2;
+    padding: 40px;
+}
